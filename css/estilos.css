@@ -23,6 +23,11 @@ h1 {
   border-bottom: 3px solid white;
 }
 
+h1:hover {
+  font-size: 3rem;
+  transition: 2ms ease-in;
+}
+
 nav {
   list-style: none;
   padding: 0;
@@ -34,4 +39,105 @@ nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+
+.container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+
+
+}
+
+.box {
+  width: 300px;
+  text-align: center;
+
+
+
+
+
+}
+
+
+
+.box img {
+  width: 250px;
+  border-top-left-radius: 10px;
+
+
+}
+
+.primavera a img:hover {
+  width: 200px;
+  border-radius: 100px;
+  animation: rotar 30s linear;
+
+}
+
+@keyframes rotar {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+
+  }
+}
+
+.verano img:hover {
+  width: 200px;
+  border-radius: 100px;
+  animation: rotar2 30s linear;
+
+}
+
+@keyframes rotar2 {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-360deg);
+
+  }
+}
+
+.otoño img:hover {
+  width: 200px;
+  border-radius: 100px;
+  animation: rotar3 10s linear;
+
+}
+
+@keyframes rotar3 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 3;
+
+  }
+}
+
+.invierno img:hover {
+  width: 200px;
+  border-radius: 100px;
+  animation: rotar4 10s linear;
+
+}
+
+@keyframes rotar4 {
+  from {
+    transform: skewX(0deg);
+  }
+
+  to {
+    transform: skewX(20deg);
+
+  }
 }
