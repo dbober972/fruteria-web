@@ -9,7 +9,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ffa947a8;
+  background-color: #fdd97d;
   padding: 1em;
   color: white;
   box-shadow: 2px 4px 15px rgba(255, 119, 0, 0.879);
@@ -33,6 +33,7 @@ nav {
   padding: 0;
   display: flex;
   gap: 1em;
+
 }
 
 nav a {
@@ -46,7 +47,7 @@ nav a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
+
 
 
 }
@@ -54,6 +55,7 @@ nav a {
 .box {
   width: 300px;
   text-align: center;
+
 
 
 
@@ -95,7 +97,7 @@ nav a {
 }
 
 .img_estaciones {
-  width: 100%;
+  width: 90%;
   height: 90vh;
   margin-top: 15px;
   margin-left: 10px;
@@ -103,9 +105,18 @@ nav a {
   border-radius: 20px;
 }
 
+.img_derecha {
+  width: 90%;
+  height: 90vh;
+  margin-top: 15px;
+
+  border: 2px solid green;
+  border-radius: 20px;
+}
+
 .text_estaciones {
   margin: 5px;
-  padding: 20px;
+  padding: 10px;
   text-align: justify;
   line-height: 1.5;
 }
