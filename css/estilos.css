@@ -15,12 +15,12 @@ header {
   box-shadow: 2px 4px 15px rgba(255, 119, 0, 0.879);
 }
 
-h1 {
-  margin: 0.5em 0;
-  text-align: center;
-  border-radius: 25%;
-  border-top: 3px solid white;
-  border-bottom: 3px solid white;
+#header_fijo {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+
 }
 
 h1:hover {
@@ -43,6 +43,7 @@ nav a {
 }
 
 .container {
+  margin-top: 20px;
   height: 80vh;
   display: flex;
   justify-content: center;
@@ -193,4 +194,12 @@ nav a {
     transform: skewX(20deg);
 
   }
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #fdd97d;
+  color: white;
+
 }
